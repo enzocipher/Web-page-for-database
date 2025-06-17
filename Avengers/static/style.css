@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(
+        to bottom,
+        #5bcffa 0%,      /* celeste */
+        #5bcffa 20%,
+        #f5abb9 20%,     /* rosa */
+        #f5abb9 40%,
+        #ffffff 40%,     /* blanco */
+        #ffffff 60%,
+        #f5abb9 60%,     /* rosa */
+        #f5abb9 80%,
+        #5bcffa 80%,     /* celeste */
+        #5bcffa 100%
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.container {
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(0, 60, 120, 0.10);
+    padding: 32px 28px 18px 28px;
+}
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.logo-img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 4px solid #2196f3;
+    background: #e3f0ff;
+    margin-bottom: 6px;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.18);
+    transition: box-shadow 0.2s;
+}
+.logo-img:hover {
+    box-shadow: 0 4px 16px rgba(33,150,243,0.28);
+}
+h2 {
+    color: #1565c0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.input-group .form-control {
+    border-radius: 8px 0 0 8px;
+    border-right: 0;
+}
+.input-group .btn {
+    color: whitesmoke;
+    border-radius: 0 8px 8px 0;
+    background: #2196f3;
+    border: none;
+    font-weight: 500;
+}
+.input-group .btn:hover {
+    background: #1565c0;
+}
+.table {
+    margin-top: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fafdff;
+}
+.table thead {
+    background: #2196f3;
+    color: #fff;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e3f0ff;
+}
+.pagination {
+    justify-content: center;
+    margin-top: 18px;
+}
+.page-item.active .page-link {
+    background-color: #1565c0;
+    border-color: #1565c0;
+}
+.page-link {
+    color: #2196f3;
+}
+.page-link:hover {
+    background: #e3f0ff;
+    color: #1565c0;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #7ba6d9;
+    font-size: 0.98em;
+    letter-spacing: 0.5px;
+}
